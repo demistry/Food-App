@@ -23,6 +23,8 @@ class MenuItem(Base):
     restaurant_id =Column(Integer, ForeignKey('restaurant.id'))
     restaurant = relationship(Restaurant)
 
+    #Creates MenuItem
+
 
 
 
